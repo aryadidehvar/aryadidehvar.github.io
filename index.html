@@ -119,6 +119,7 @@
   <a class="home" href="#about">Arya Didehvar</a>
   <nav aria-label="Sections">
     <a href="#work">Work</a>
+    
     <a href="#now">Working on now</a>
     <a href="#outside">Outside of that</a>
     <a href="#not-on-this-page">What isn't on this page</a>
@@ -147,7 +148,7 @@
       <p>Aegis runs small-cap, deep-value funds. I spent the summer on the mining and energy names.</p>
       <p>The main thing I built was a comparables model covering fourteen gold companies the funds already held. Comps are simple when companies file the same way, and these didn't. Some were Australian and reported in Australian dollars, some were Canadian, a few were American, and each one's project economics had been run at whatever gold price happened to be current when its technical report was published. So most of the job was normalization: converting everything into one currency at current FX and re-running the project values at a single spot gold price, so that the numbers I was lining up against each other were actually the same kind of number.</p>
       <p>I also limited the set to single-project companies. A company with four mines at four different stages has four risk profiles inside one share price, and I had no defensible way to compare that against a company with one. Narrowing the screen cost me names and made the output mean something.</p>
-      <p>From there the model carried each company's project NPV, annual production in ounces, price to NAV, and enterprise value per ounce, plus sensitivities on the NPVs. The inputs came out of NI 43-101 technical reports, which are long and not written to be convenient. I built an HTML dashboard on top of the model that one of the full-time analysts used.</p>
+      <p>From there the model carried each company's project NPV, annual production in ounces, price to NAV, and enterprise value per ounce, plus sensitivities on the NPVs. The inputs came from technical reports, which are long and not written for convenience. I built an HTML dashboard on top of the model that one of the full-time analysts used.</p>
       <p>The part I learned the most from was not the model. Because the funds held large positions in small companies, the portfolio managers could get executives on the phone, and I got to sit in and listen to how they asked questions. They were not there for the company's pitch. They were hunting for the one assumption that would break the forecast if it turned out to be wrong. That is a different skill from building the thing, and I am not good at it yet.</p>
     </div>
 
